@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>specificity</title>
+        <link rel="stylesheet" href="./selector.css">
+        <style>
+
+            p{
+                color:red;
+            }
+            #intern{
+                color: blueviolet;
+            }
+            .hello{
+                color: blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 id="intern" >specificity in CSS</h1>
+        <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.</p>
+        <h2 class="hello">hello world</h2>
+        <h3 id="given" class="taken">Specificity Hierarchy</h3>
+        <p id="cation" class="anion" style="color: darkgreen;" >Every CSS selector has its place in the specificity hierarchy.There are four categories which define the specificity level of a selector:</p>
+        <ol id="one">
+            <li id="two">Inline CSS:</li>
+            <dl>
+                <dd >styles applied directly to an HTML element using the style attribute has the highest specificity.</dd>
+            </dl>
+            <li class="three">id Selector:</li>
+            <dl>
+                <dd>Selectors containing an ID have a higher specificity than class selectors or tag selectors.</dd>
+            </dl>
+            <li style="color: darkviolet;">Class Selector:</li>
+            <dl>
+                <dd>selectors containing the class have a higher specificity than element selector.i</dd>
+            </dl>
+
+            <li>element Selector:</li>
+            <dl>
+                <dd>the selectors containing the element have a lower specificity in specificity in css.</dd>
+            </dl>
+        </ol>
+        <h4 style="color: orangered;">!important rule in css</h4>
+        <h5 id="hello">The !important rule in CSS is used to add more importance to a property/value than normal.</h5>
+        <h5 class="hi"> In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!</h5>
+        <h6 style="border: 2px solid tomato;">colors in CSS</h6>
+        <ul>
+            <li>RGB COLORS</li>
+            <p style="background-color: cadetblue;">In CSS, a color can be specified as an RGB value, using this formula:
+
+                rgb(red, green, blue)
+                
+                Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+                
+                For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+                
+                To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+                
+                To display white, set all color parameters to 255, like this: rgb(255, 255, 255).</p>
+            <li>HEX</li>
+            <p id="hexa">In CSS, a color can be specified using a hexadecimal value in the form:
+
+                #rrggbb
+                
+                Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+                
+                For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+                
+                To display black, set all values to 00, like this: #000000.
+                
+                To display white, set all values to ff, like this: #ffffff.</p>
+            <li>HSL</li>
+            <p class="light">In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+                hsl(hue, saturation, lightness)
+                
+                Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+                
+                Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+                
+                Lightness is also a percentage. </p>
+        </ul>
+    </body>
+</html>

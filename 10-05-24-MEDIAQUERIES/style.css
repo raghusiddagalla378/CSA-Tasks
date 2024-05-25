@@ -1,0 +1,46 @@
+h1{
+    color: maroon;
+    text-align: center;
+}
+#head1{
+    color:gray;
+    text-align: center;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+h2{
+    color: burlywood;
+}
+h3{
+    color: goldenrod;
+}
+.media{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+}
+@media screen and (min-width:650px){
+    body{
+        background-color: red;
+    }
+    .media{
+        background-color: blue;
+    }
+}
+#query{
+    color: black;
+    text-align: center;
+    background-color: green;
+}
+@media screen and (max-width:649px) {
+    div{
+        background-color: darkcyan;
+    }
+    #query{
+        background-color: lightseagreen;
+    }   
+}

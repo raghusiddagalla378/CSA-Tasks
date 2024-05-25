@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+}
+.bell-icon{
+    background-color: aqua;
+    width: 250px;
+    height: 240px;
+    padding: 10px;
+    border: 4px solid red; 
+    border-radius: 10px;
+    position: fixed;
+    top: 200px;
+    right: 600px;
+}
+@keyframes shake{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    25%{
+        transform: translate(-50%,-50%) rotate(-10deg);
+    }
+    50%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    75%{
+        transform: translate(-50%,-50%) rotate(10deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+}
+.bell-icon svg{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 200px; 
+    transform: translate(-50%,-50%);
+    animation-name: shake;
+     animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear;  */
+    transform-origin: 50% 0%;
+}  
+.bell-icon:hover{ 
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}   
+#cat{
+    width: 75px;
+    height: 75px;
+    /* position: absolute;
+    left: auto;
+    bottom: 100px; */
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+#cat:hover{
+    animation-name: movement;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+.cat1{
+    height: 10px;
+    width: 100%;
+    background-color: rosybrown;
+}
+
+@keyframes movement{
+        from{
+            transform: translate(0px);
+        }
+        to{
+            transform: translate(100vw);
+        }
+}
+   

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>FORMS</title>
+         <link rel="stylesheet" href="./formstyles.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">SIGNUP FORM</h1>
+        <form id="form">
+           <div>
+               <label for="fname">First Name:</label>   
+               <input placeholder="enter your firstname" required name="fname" type="text"id="fname"/><br><br>
+            
+            <div>
+               <label for="lname">Last Name:</label>
+               <input placeholder="enter your lastname" required name="lname"  type="text"id="lname"/><br><br>
+            </div>
+            
+            <div>
+               <label for="email">Email-ID:</label>
+               <input placeholder="enter your email" required name="email"  type="email" id="email"/>
+           </div>
+           <div>
+               <h2>Gender:</h2>
+               <label for="male">Male : </label>
+               <input type="radio" id="male" name="gender" value=""/>
+               <label for="female">Female</label>
+               <input type="radio" id="female" name="gender" value=""/>
+           </div>
+           <div>
+               <h3>choose your country:</h3>
+               <label for="southafrica">south Africa</label>
+               <input type="checkbox" id="southafrica" /><br>
+                <label for="england">England</label>
+                <input type="checkbox" id="england" /><br>
+                <label for="srilanka">SriLanka</label>
+                <input type="checkbox" id="srilanka" /><br>
+                <label for="india">india</label>
+                <input type="checkbox" id="india" /><br>
+        
+                <label for="usa">USA</label>
+                <input type="checkbox" id="usaS" /><br><br>
+           </div>
+           <button>Already have an account</button>    
+        </form> 
+        <a href="./login.html">Register?</a>
+        
+    </body>
+</html>

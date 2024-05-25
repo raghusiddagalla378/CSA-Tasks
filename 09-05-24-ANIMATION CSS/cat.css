@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+#cat{
+    width: 75px;
+    height: 75px;
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+#cat:hover{
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+
+}
+.cat1{
+    height: 10px;
+    width: 100%;
+    background-color: rosybrown;
+}
+@keyframes movement{
+        from{
+            transform: scale(0);
+        }
+        to{
+            transform: scale(1.2);
+        }
+}
+    

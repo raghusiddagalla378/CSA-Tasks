@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    height: 500px;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
+
+}
+.grid1{
+    background-color: aqua;
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    
+
+}
+.grid2{
+    background-color:red;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+.grid3{
+    background-color: yellow;
+
+}
+.grid4{
+    background-color:violet;
+
+}
+.grid5{
+    background-color: blue;
+    grid-column: 1/4;
+
+}
+.grid-container >div{
+    display: flex;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}

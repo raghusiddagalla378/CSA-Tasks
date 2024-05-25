@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position in css</title>
+        <link rel="stylesheet" href="./position.css">
+    </head>
+    <body>
+        <h1>position in css</h1>
+        <p>The CSS position property is used to define the position of an element on a webpage.The location of the positioned element is set with the four properties: top, left, right, and bottom. These properties only work when the position property is set and have different positioning behaviors.</p>
+        <h2>static</h2>
+        <p class="static"> The static value of the position property allows elements to be positioned accordingly to the normal flow of the document. </p>
+        <p>The static position is not affected by the top, right, bottom, and left values. </p>
+        <h2>absolute</h2>
+        <p class="absolute"> The absolute value removes the element completely from its normal flow in the document.
+
+            The element is positioned relative to their closest positioned parent element (an ancestor element with a position value other than static).</p>
+        <p>If there is no positioned ancestor, they are positioned relative to the document itself.</p>
+        <h2>relative</h2>
+        <p class="relative"> The relative value positions the element relative to the original position in the document.</p>
+        <p>The element is positioned with the top, right, bottom, and left values.</p>
+        <h2>fixed</h2>
+        <p class="fixed"> The fixed value positions an element to remain fixed in the same position, even when the page is scrolled. It is similar to the absolute value, but it remains relative to the viewport at all times.</p>
+        <h2>sticky</h2>
+        <p >The sticky value positions the element as a combination of relative and fixed values.</p>
+
+        <p class="sticky">The sticky position behaves like relative positioning until the element reaches a certain scroll point on the screen. </p>
+        <p >After that, the element sticks to the top of the viewport like a fixed element.</p>
+        
+    </body>
+</html>

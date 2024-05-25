@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+#para{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: white; */
+    text-align: center;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+/*  */
+#para{
+    color: bisque;
+}
+#para1{
+    color:black;
+    background-color: yellow;
+}
+#para1{
+    background-color: blueviolet;
+}
+.head{
+    color: blue;
+    background-color: brown;
+}
+.head{
+    color:violet; 
+    background-color: green;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+* {
+    background-color: red;
+    color: blue;
+    font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

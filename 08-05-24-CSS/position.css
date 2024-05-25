@@ -1,0 +1,42 @@
+p{
+    border: 1px dashed black;
+    padding: 10px;
+}
+ p.static{ 
+    position: static;
+    left: 10px;
+    right: 5px;
+    top: 15px;
+    bottom: 20px;
+    background-color: aqua;  
+ } 
+p.absolute{
+    position: absolute;
+    top: 110px;
+    right: 200px;
+    color: red;  
+} 
+ p.relative{
+    position: relative;
+    height: 50px;
+    top: -2px;
+    left: 100px;
+    color: green;
+    border: 2px solid red;
+    background-color: antiquewhite; 
+} 
+p.fixed{
+        position: fixed;
+        z-index: 3;
+        bottom: 200px;
+        left: 100px;
+        color: black;
+        background-color: cadetblue;
+} 
+p.sticky{
+        position: sticky;
+        top:110px;
+        right: 50px;
+
+        color: hotpink;
+} 

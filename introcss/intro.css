@@ -1,0 +1,22 @@
+h2{
+    background-color: black;
+    color: bisque;
+}
+p{
+    color:black;
+    background-color: cadetblue;
+}
+#class{
+    background-color: gold;
+    width: 150px;
+}
+.bat{
+    color: crimson;
+    background-color:lightpink;
+    width: 140px;
+}
+#ball{
+    color:burlywood;
+    background-color: darkslategrey;
+    width: 110px;
+}

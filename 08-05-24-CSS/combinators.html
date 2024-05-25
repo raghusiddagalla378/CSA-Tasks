@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./combinators.css">
+</head>
+<body>
+    <div>
+      <h1>COMBINATORS IN CSS</h1>  
+      
+      <p>In CSS (Cascading Style Sheets), combinators are symbols or characters that specify the relationship between different HTML elements that you want to style. Combinators help you target elements based on their position and hierarchy within the HTML document</p>
+      <p>These combinators allow you to apply styles selectively based on the relationships between elements in your HTML structure, making your CSS more specific and targeted to achieve the desired styling effects.</p>
+    
+    </div>
+    <div id="container">
+        <h2>Descendant combinator</h2>
+        <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+        <p>This selector is used to select all the child elements of the specified tag. The tags can be the direct child of the specified tag or can be very deep in the specified tag. This combinator combines the two selectors such that selected elements have an ancestor the same as the first selector element.</p>
+        <div>
+            <p>There are four main types of CSS combinators:
+
+            1.Descendant Combinator (space)
+            
+            2.Child Combinator (>)
+            
+            3.Adjacent sibling Combinator (+)
+            
+            4.General sibling Combinator (~)</p>
+        </div>    
+    </div>
+    <div class="container1">
+        <h3>child combinators</h3>
+        <p>The child combinator, represented by the greater-than symbol (>), selects all elements that are immediate children of a specified element. Using the same HTML structure as above, you can target only the immediate child <p> elements</p>
+        <p>This selector is used to select the element that is the immediate child of the specified tag.  </p>
+        <div>
+            <p>This combinator is stricter than the descendant selector because it selects only the second selector if it has the first selector element as its parent.</p>
+        </div>
+    </div>
+    <div id="container2">
+        <h3>adjacent sibling combinators</h3>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+        <p>Sibling elements must have the same parent element, and "adjacent" means "immediately following".</p>
+    </div>   
+    <p>The Adjacent sibling selector is used to select the element that is adjacent or the element that is next to the specified selector tag. </p> 
+    <p>This combinator selects only one tag that is just next to the specified tag.</p>
+    <h4>general sibling selector</h4>
+    <div class="container3">
+        <p>para1</p>
+        <p>This combinator selects only one tag that is just next to the specified tag.</p>
+        <div>
+            <p>The general sibling selector is used to select the element that follows the first selector element and also shares the same parent as the first selector element. </h6>
+
+        </div>
+        <p>This can be used to select a group of elements that share the same parent element.</p>
+        <h6>paragragh</h6>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+#raghu{
+    color: green;
+    text-align: center;
+}
+#photo{
+    height: 250px;
+    width: 300px;
+}
+img{
+    height: 50%;
+    width: 40%;
+}
+h2{
+    text-align: center;
+    color: aquamarine;
+    font-size: 1cm;
+    line-height: 4cm;
+    font-size: 10mm;
+}
+h3{
+    color: aqua;
+    font-size: 0.5in;
+    line-height: 1em;
+    letter-spacing: 0.1vmax;
+}
+h4{
+    color: yellowgreen;
+    font-size: 20pt;
+    line-height: 2ex;
+    letter-spacing: 2vh;
+}
+h5{
+    color: violet;
+    font-size: 3ch;
+    line-height: 4px;
+    letter-spacing: 1vw;
+    
+}
+h6{
+    color: yellow;
+    font-size: 2pc;
+    line-height: 1rem;
+    letter-spacing: 1vmin;
+}
+#para{
+    color: blueviolet;
+    text-align:justify ;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    background-color: black;
+    text-indent: 100px;
+
+
+}
+#para1{
+    color: red;
+    text-decoration: none;
+    background-color: white;
+    text-indent: 100px;
+}
+     #quote{
+    color:orange;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-indent: 100px;
+    text-shadow: 1px 1px orange;
+    text-transform: capitalize;
+}
+#quote1{
+    color:green;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+#para2{
+    color:cornflowerblue;
+    text-align-last:end ;
+    text-shadow: 5px 2px blue;
+
+}

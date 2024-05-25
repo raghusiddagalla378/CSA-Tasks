@@ -1,0 +1,65 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+.items{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.container{
+    display: grid;
+    width: 200px;
+    grid-template-columns: repeat(3,100px) ;
+    grid-template-rows: 100px 100px 100px ;
+    column-gap: 120px;
+    row-gap: 210px;
+    /* justify-content: center; */
+     height: 100vh;
+    /* align-content: center; */ 
+    align-items: start;
+    border: 100px;
+
+    
+}
+#char{
+    justify-self: start;
+    
+    
+    
+    background-color: yellow;
+
+}
+#red{
+    background-color: aqua;
+}
+#gate{
+    background-color: red;
+    
+
+}
+#konda{
+    background-color:pink;
+
+}
+#golconda{
+    background-color: brown;
+
+}
+#goa{
+    background-color: blue;
+
+}
+#vict{
+    background-color:orange;
+
+}
+#caves{
+    background-color: violet;
+
+}

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+ #container p{
+    color: blue;
+} 
+.container1 > p{
+    color: red;
+
+} 
+#container2 + p{
+    color: orange;
+}
+.container3 div ~ p{
+    color: rgb(130, 238, 236);
+} 
