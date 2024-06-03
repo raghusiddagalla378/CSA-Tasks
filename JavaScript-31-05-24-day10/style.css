@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+    margin-top: 30px;
+}
+#btn{
+    margin-top: 100px;
+    padding: 13px 20px;
+    color: aqua;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
