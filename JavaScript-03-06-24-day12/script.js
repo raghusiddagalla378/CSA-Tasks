@@ -1,0 +1,3 @@
+
+let clas=document.querySelector
+
