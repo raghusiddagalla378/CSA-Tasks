@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>promises in JavaScript</h1>
+    <p>In JavaScript, a promise is used to handle asynchronous operations. It is used to find out if the asynchronous operation is successfully completed or not.</p>
+    <p>A promise may have one of three states.</p>
+    <ul>
+        <li>pending</li>
+        <li>fulfilled</li>
+        <li>rejected</li>
+    </ul>
+    <p>A promise starts in a pending state. That means the process is not complete. If the operation is successful, the process ends in a fulfilled state. And, if an error occurs, the process ends in a rejected state.</p>
+    
+    <br>
+    <h3>promise  methods </h3>
+    <ul>
+        <li>Resolve</li>
+        <p>When the promise is executed successfully, the resolve argument is invoked, which provides the result.</p>
+        <li>Reject</li>
+        <p>When the promise is rejected, the reject argument is invoked, which results in an error.</p>
+    </ul>
+    <h4>Advantages of using Promises</h4>
+    <ol>
+        <li>A better option to deal with asynchronous operations.</li>
+        <li>Provides easy error handling and better code readability.</li>
+    </ol>
+    <h2>callback hell</h2>
+    <p>Callback hell is a phenomenon where a Callback is called inside another Callback. It is the nesting of multiple Callbacks inside a function. If you look at the design of the code, it seems just like a pyramid. Thus the Callback hell is also referred to as the ‘Pyramid of Doom’.
+
+        Callback hell structurally is just a nesting of function calls inside a function. But, it becomes difficult to understand and keep track of the nesting once the size of the nesting is increased.</p>
+    <script src="./script.js"></script>
+</body>
+</html>
