@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+.container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+.info{
+  padding: 25px;
+  background-image: linear-gradient(to right,red,pink,orange);
+  width: 450px;
+  height: 300px;
+
+  
+  
+}
+.details{
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  color: black;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
